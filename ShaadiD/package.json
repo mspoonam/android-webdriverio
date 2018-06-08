@@ -1,0 +1,24 @@
+{
+  "name": "shaadid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "panchsheela": "mocha webdriverio-shaadid.js"
+    },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "appium-uiautomator2-driver": "^1.13.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^5.2.0",
+    "wd": "^1.8.1"
+  },
+  "devDependencies": {
+    "wdio-appium-service": "^0.2.3",
+    "wdio-mocha-framework": "^0.5.13",
+    "webdriverio": "^4.12.0"
+  }
+}
